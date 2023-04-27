@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avatar_image"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/meo" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Anh Tuấn"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Đây là giới thiệu về cá nhân của tôi"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:lines="3"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_text"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Đây là giới thiệu về cá nhân của tôi"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:lines="3"/>
+
+
+</RelativeLayout>
